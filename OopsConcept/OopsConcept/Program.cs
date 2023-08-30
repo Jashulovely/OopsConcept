@@ -13,6 +13,8 @@ namespace OopsConcept
              PublicAM pb = new PublicAM();
              pb.UC1();
              Console.WriteLine("Hello");
+            pb.UC2();
+            Console.WriteLine("Hello");
         }
     }
 }

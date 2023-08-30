@@ -12,5 +12,9 @@ namespace OopsConcept
         {
             Console.WriteLine("Public access modifier.");
         }
+        public void UC2()
+        {
+            Console.WriteLine("Public access modifier.");
+        }
     }
 }
