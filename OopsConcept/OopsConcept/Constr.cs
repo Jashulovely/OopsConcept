@@ -56,7 +56,10 @@ namespace OopsConcept
         {
             this.age=age;
             Console.WriteLine("I am " +age +" years old.");
-            
+            Console.WriteLine("This is a constructor.");
+            Console.WriteLine("This is a constructor.");
+            Console.WriteLine("This is a constructor.");
+
         }
 
     }
