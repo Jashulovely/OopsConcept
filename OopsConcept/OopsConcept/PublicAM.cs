@@ -8,13 +8,26 @@ namespace OopsConcept
 {
     public class PublicAM
     {
-        public void UC1()
+       public void m1()
         {
-            Console.WriteLine("Public access modifier.");
+            Console.WriteLine("public method");
         }
-        public void UC2()
+        private void m2()
         {
-            Console.WriteLine("Public access modifier.");
+            Console.WriteLine("private method");
         }
+        protected void m3()
+        {
+            Console.WriteLine("protected method");
+        }
+        internal void m4()
+        {
+            Console.WriteLine("internal method");
+        }
+        protected internal void m5()
+        {
+            Console.WriteLine("protected internal method");
+        }
+
     }
 }
