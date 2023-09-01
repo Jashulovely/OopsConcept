@@ -18,6 +18,8 @@ namespace OopsConcept
         public Constr() {
             Console.WriteLine("This is a constructor.");
             Console.WriteLine("This is a constructor.");
+            Console.WriteLine("This is a constructor.");
+            Console.WriteLine("This is a constructor.");
         }
         public Constr(string name, int age)
         {
