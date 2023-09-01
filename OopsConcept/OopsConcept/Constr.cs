@@ -37,6 +37,11 @@ namespace OopsConcept
             Console.WriteLine("My Name is " + name + " and age is " + age + " and I am from "+ address);
 
         }
+        public Constr(string name)
+        {
+            this.name=name;
+            Console.WriteLine("My name is " + name);
+        }
         
     }
 }
