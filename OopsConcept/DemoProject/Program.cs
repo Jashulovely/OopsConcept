@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo
+namespace DemoProject
 {
     internal class Program : PublicAM
     {
@@ -15,6 +15,7 @@ namespace Demo
             p.m1();
             p.m3();
             p.m5();
+            Console.WriteLine("Methods accessed by Access Modifiers");
             Console.ReadLine();
 
         }
