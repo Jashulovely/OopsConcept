@@ -15,6 +15,7 @@ namespace OopsConcept
         //Default constructor which is not parameterised.
         string name ;
         int age;
+        string address;
         public Constr() {
             Console.WriteLine("This is a constructor.");
             Console.WriteLine("This is a constructor.");
@@ -27,6 +28,14 @@ namespace OopsConcept
             Console.WriteLine("Name is " + name +" and age is " + age);
             this.age = age;
             
+        }
+        public Constr(string name, int age, string address)
+        {
+            this.name = name;
+            this.age = age;
+            this.address = address;
+            Console.WriteLine("My Name is " + name + " and age is " + age + " and I am from "+ address);
+
         }
         
     }
