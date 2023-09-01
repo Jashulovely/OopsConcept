@@ -21,6 +21,7 @@ namespace OopsConcept
             Constr con = new Constr("jashu",23);
             Constr cons = new Constr("Raju",26,"hyd");
             Constr constr = new Constr("Jashu");
+            Constr a = new Constr(23);
             Console.ReadLine();
             
             

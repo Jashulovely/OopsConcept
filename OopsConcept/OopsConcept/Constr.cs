@@ -42,6 +42,12 @@ namespace OopsConcept
             this.name=name;
             Console.WriteLine("My name is " + name);
         }
-        
+        public Constr(int age)
+        {
+            this.age=age;
+            Console.WriteLine("I am " +age +" years old.");
+            
+        }
+
     }
 }
